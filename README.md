@@ -1,7 +1,7 @@
-stepanstipl/noop
+pemcg/noop
 =============
 
-**This repo is not maintained anymore, I would recommend using docker for rpm related stuff, for example `stepanstipl/centos7-rpm-devtools` image.**
+**The upstream repo https://github.com/stepanstipl/homebrew-noop is not maintained anymore**
 
 _Stepan's personal tap for homebrew formulae_
 
@@ -11,8 +11,8 @@ This tap was originally created when I've decided to move from MacPorts (http://
 How do I install these?
 -----------------------
 - I suppose you have Homebrew installed (if not follow instructions at http://brew.sh/)
-- Add this tap: `brew tap stepanstipl/noop`
-- Install what you want: `brew install <formula>`
+- Add this tap: `brew tap pemcg/noop`
+- Install what you want: `brew install <formula>` (on macOS Sierra use `ARCHFLAGS="-arch x86_64" brew install <formula>`)
 
 
 Formulae in this tap:
@@ -54,7 +54,7 @@ Please use GitHub's issue tracker for reporting issues and eventually any sugges
 
 License:
 --------
-Released under [MIT License](https://github.com/stepanstipl/homebrew-noop/blob/master/LICENSE.md). Feel free to redistribute and contribute!
+Released under [MIT License](https://github.com/pemcg/homebrew-noop/blob/master/LICENSE.md). Feel free to redistribute and contribute!
 
 Todo:
 -----
