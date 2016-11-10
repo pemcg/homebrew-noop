@@ -4,7 +4,6 @@ require 'formula'
 class Rpm4 < Formula
   homepage 'http://www.rpm.org/'
   url 'http://rpm.org/releases/rpm-4.12.x/rpm-4.12.0.1.tar.bz2'
-  sha1 'd416bdb249b246b00b2d5d34c66e7f5a68a62524'
 
   depends_on 'pkg-config' => :build
   depends_on 'nss'

@@ -4,7 +4,6 @@ require 'formula'
 class Rpmlint < Formula
   homepage 'http://sourceforge.net/projects/rpmlint/'
   url 'http://sourceforge.net/projects/rpmlint/files/rpmlint-1.6.tar.xz/download'
-  sha1 '845da2d673e88e2dbd97d75f10a9b575a8923844'
 
   depends_on 'stepanstipl/noop/rpm4'
   depends_on :python
