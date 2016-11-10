@@ -5,8 +5,8 @@ class Createrepo < Formula
   homepage 'http://createrepo.baseurl.org//'
   url 'http://createrepo.baseurl.org/download/createrepo-0.4.11.tar.gz'
 
-  depends_on 'stepanstipl/noop/yum-metadata-parser'
-  depends_on 'stepanstipl/noop/rpm4'
+  depends_on 'pemcg/noop/yum-metadata-parser'
+  depends_on 'pemcg/noop/rpm4'
   depends_on 'coreutils'
   depends_on 'libxml2' => 'with-python'
 
